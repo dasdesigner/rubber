@@ -1,0 +1,1047 @@
+@charset "utf-8"; /* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/mariyil-rubber-nursery-background.jpg)
+        center top no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #454545;
+}
+.wrapper {
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.content_wrapper {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.header {
+    background: url(../images/header_background-mariyil-rubber-nursery.png)
+        center top no-repeat;
+    height: 120px;
+    position: absolute;
+    z-index: 99;
+}
+div.wrapper.header {
+}
+div.wrapper.header div.content_wrapper {
+}
+div.wrapper.header div.content_wrapper div.logo_wrapper {
+    float: left;
+}
+div.wrapper.header div.content_wrapper div.logo_wrapper img {
+    width: 84%;
+    margin: 5px 0px 0px 9px;
+}
+div.wrapper.header div.content_wrapper div.mariyil-contact-number {
+    float: right;
+    color: #fff;
+}
+div.wrapper.header div.content_wrapper div.mariyil-contact-number ul {
+    float: right;
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 19px;
+}
+div.wrapper.header div.content_wrapper div.mariyil-contact-number ul li {
+    width: 100%;
+    float: right;
+    text-align: right;
+    text-shadow: 0px 2px 2px #000;
+}
+div.wrapper.header div.content_wrapper div.mariyil-contact-number ul li.mail-id-mariyil-rubber-nursery {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 15px;
+}
+div.wrapper.banner {
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr {
+    position: relative;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.banner {
+    margin-top: 81px;
+    border-bottom: 2px solid #bc401e;
+    width: 100%;
+    height: 464px;
+    overflow: hidden;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.banner img {
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper {
+    position: absolute;
+    bottom: -20px;
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../images/menu_bg.jpg) center top repeat-x;
+    -moz-border-radius: 25px; /*Firefox*/
+    -webkit-border-radius: 25px; /*Safari, Chrome*/
+    border-radius: 25px;
+    padding: 0px 22px;
+    padding: 0px 101px;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul {
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li {
+    float: left;
+    background: url(../images/divider.png) 0px 5px no-repeat;
+    color: #fff;
+    position: relative;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 24px;
+    float: left;
+    font-family: MyriadPro-Regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 3px #5f0202;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li.home {
+    background: none;
+}
+div.welcome-note {
+    width: 100%;
+    background: url(../images/welcom-bg.png) center bottom no-repeat;
+    float: left;
+    font-family: lato;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    margin: 22px 0px;
+    padding: 23px 0px;
+}
+div.welcome-note h3 {
+    color: #91610e;
+}
+div.welcome-note h3 span {
+    font-size: 24px;
+    width: 100%;
+    float: left;
+    margin-bottom: 19px;
+}
+div.welcome-note p {
+    color: #646464;
+}
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("fonts/MyriadPro-Regular.eot") format("eot"),
+        url("fonts/MyriadPro-Regular.otf") format("opentype"),
+        url("fonts/MyriadPro-Regular.woff") format("woff"),
+        url("fonts/MyriadPro-Regular.ttf") format("truetype"),
+        url("fonts/MyriadPro-Regular.svg#MyriadPro-Regular")
+            format("svg");
+}
+@font-face {
+    font-family: "lato";
+    src: url("fonts/lato-bolita-webfont.eot") format("eot"),
+        url("fonts/lato-bolita-webfont.otf") format("opentype"),
+        url("fonts/lato-bolita-webfont.woff") format("woff"),
+        url("fonts/lato-bolita-webfont.ttf") format("truetype"),
+        url("fonts/lato-bolita-webfont.svg") format("svg");
+}
+div.round_wrapper {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+div.round_wrapper ul {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 5;
+    background: #fff;
+}
+div.round_wrapper ul li {
+    width: 20%;
+    float: left;
+    padding: 4.4% 2.4%;
+    text-align: center;
+    font-family: lato;
+    font-size: 14px;
+    border: 1px solid #fff;
+    margin: 16px 0px;
+    -moz-border-radius: 7px; /*Firefox*/
+    -webkit-border-radius: 7px; /*Safari, Chrome*/
+    border-radius: 7px;
+}
+div.round_wrapper ul li div.round {
+    width: 168px;
+    height: 168px;
+    border: 2px solid #d33c11;
+    margin: 0 auto;
+    -moz-border-radius: 50%; /*Firefox*/
+    -webkit-border-radius: 50%; /*Safari, Chrome*/
+    border-radius: 50%;
+    position: relative;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+div.round_wrapper ul li:hover div.round {
+    -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -moz-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -o-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scale3d(1, 1, 1);
+    -ms-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scale3d(1, 1, 1);
+    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg) scale3d(1, 1, 1);
+    background-color: #d33c11;
+    background-position: 0px -1px;
+}
+div.round_wrapper ul li div.round div.icon {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+div.round_wrapper ul li h3 {
+    color: #d33c11;
+}
+div.round_wrapper ul li div.view_btn {
+    background: #d33c11;
+    width: 60px;
+    padding: 7px 2px 5px 2px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+    -moz-border-radius: 30px; /*Firefox*/
+    -webkit-border-radius: 30px; /*Safari, Chrome*/
+    border-radius: 30px;
+    line-height: 18px;
+}
+div.round_wrapper ul li div.view_btn a{
+    color: #fff;
+}
+.icon {
+    background: url(../images/mariyil-icons.png) 12px 10px no-repeat;
+}
+div.round_wrapper ul li.vgallery div.round div.icon {
+    background-position: -230px 9px;
+}
+div.round_wrapper ul li.location div.round div.icon {
+    background-position: -477px 10px;
+}
+div.round_wrapper ul li.history div.round div.icon {
+    background-position: -718px 10px;
+}
+.booking {
+    background: url(../images/booking_bg.jpg) center;
+    position: relative;
+    z-index: 9;
+}
+div.content_wrapper {
+}
+div.content_wrapper div.our-garden {
+    background: url(../images/rubber-.png) 80px 0px no-repeat;
+    width: 210px;
+    height: 230px;
+    float: left;
+    padding-left: 322px;
+    padding-top: 150px;
+}
+div.content_wrapper div.our-garden div.head {
+    font-size: 30px;
+    font-family: lato;
+    color: #198821;
+}
+div.content_wrapper div.our-garden div.head span {
+    font-size: 13px;
+    width: 100%;
+    float: left;
+}
+div.content_wrapper div.our-garden div.view_btn.garden_btn {
+    float: left;
+    background: #46ab4d;
+    padding: 7px 22px;
+    color: #fff;
+    font-family: lato;
+    font-size: 19px;
+    margin: 11px 0px 0px 0px;
+    -moz-border-radius: 4px; /*Firefox*/
+    -webkit-border-radius: 4px; /*Safari, Chrome*/
+    border-radius: 4px;
+}
+div.content_wrapper div.our-garden div.view_btn.garden_btn a{
+    color: #fff;
+}
+div.content_wrapper div.booking-wrapper {
+    float: right;
+    width: 207px;
+    height: 150px;
+    background: url(../images/booking_bg.png) 111px 8px no-repeat;
+    padding: 95px 69px 60px 69px;
+    font-size: 12px;
+    font-family: lato;
+    color: #46ab4d;
+    margin: 89px 10px 0px 1px;
+}
+div.content_wrapper div.booking-wrapper h3 {
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+div.content_wrapper div.booking-wrapper div.booking_btn {
+    background: #46ab4d;
+    padding: 16px 40px;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+div.content_wrapper div.booking-wrapper div.booking_btn a{
+    color: #fff;
+}
+.booking:after,
+.booking:before {
+    content: "";
+    width: 100%;
+    height: 7px;
+    background: rgba(0, 0, 0, 0.14);
+    float: left;
+}
+.social-media-icons {
+    width: 156px;
+    float: left;
+    position: absolute;
+    top: 382px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+.social-media-icons ul li {
+    background: url(../images/socialmediaicons.png) 0px 0px
+        no-repeat;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 1px 1px;
+}
+.social-media-icons ul li.twitter {
+    background-position: -118px 0px;
+}
+.social-media-icons ul li.pintrest {
+    background-position: -59px 0px;
+}
+div.footer {
+    position: relative;
+}
+div.footer div.content_wrapper {
+}
+div.footer div.content_wrapper div.copy {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+div.footer div.content_wrapper div.daskrishnan {
+    background: url(../images/daskrishnan-creative-sign.png) center
+        18px no-repeat;
+    padding: 0px 0px 46px 0px;
+    text-align: center;
+    margin: 4px 0px 7px 0px;
+    background-size: 4%;
+}
+.social-media-icons ul li:hover {
+    background-position-y: -60px;
+}
+.social-media-icons ul li,
+div.content_wrapper div.our-garden div.view_btn.garden_btn,
+div.content_wrapper div.booking-wrapper div.booking_btn,
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li a:after {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+div.content_wrapper div.our-garden div.view_btn.garden_btn:hover,
+div.content_wrapper div.booking-wrapper div.booking_btn:hover {
+    background: #137c1a;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li a:hover:after,
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li.active a:after {
+    bottom: 0px;
+}
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li a:after {
+    background: #6b0000;
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    left: 0;
+    bottom: -50px;
+    z-index: -1;
+}
+div.round_wrapper ul li.location:hover div.round div.icon {
+    background-position: -478px -124px;
+}
+div.round_wrapper ul li.gallery:hover .icon {
+    background-position: 11px -124px;
+}
+div.round_wrapper ul li.vgallery:hover div.round div.icon {
+    background-position: -229px -124px;
+}
+div.round_wrapper ul li.history:hover div.round div.icon {
+    background-position: -718px -124px;
+}
+div.round_wrapper ul li.gallery:hover .icon {
+    background-position: 11px -124px;
+}
+div.round_wrapper ul li:hover div.view_btn {
+    background: #46ab4d;
+}
+div.round_wrapper ul li:hover div.view_btn a{
+    color:#fff;
+}
+div.round_wrapper ul li:hover {
+    border: 1px solid #d33c11;
+}
+div.round_wrapper ul li {
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+div.wrapper.banner.subpage .ei-slider {
+    height: 240px;
+}
+div.wrapper.banner.subpage div.content_wrapper.bacnner-wpr div.banner {
+    height: 279px;
+    margin-bottom: 51px;
+}
+div.wrapper.banner.subpage div.content_wrapper.bacnner-wpr div.menu-wrpper {
+    bottom: -19px;
+}
+h4.sub_head {
+    font-family: lato;
+    font-size: 24px;
+    margin: 0px;
+    font-weight: normal;
+    color: #91610e;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+body#subpages {
+    background-position: center -230px;
+}
+div.leftnav {
+    width: 720px;
+    float: left;
+    margin-bottom: 39px;
+}
+div.leftnav p {
+    text-align: justify;
+    line-height: 22px;
+    font-family: lato;
+    font-size: 13px;
+}
+div.gallery_wrpper {
+    width: 100%;
+    float: left;
+    margin: 15px 0px;
+}
+div.gallery_wrpper ul {
+    width: 100%;
+    float: left;
+}
+div.gallery_wrpper ul li {
+    width: 301px;
+    height: 192px;
+    float: left;
+    border: 9px solid #fff;
+    outline: 1px solid #dbdbdb;
+    margin: 7px 7px;
+    overflow: hidden;
+}
+div.gallery_wrpper ul li img {
+    width: 100%;
+    float: left;
+    min-height: 100%;
+}
+.booking:hover {
+    /* background: #FFFFD0 url(../images/booking_bg-01.jpg); */
+} /*.booking{ -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -o-transition: all 0.8s ease; transition: all 0.8s ease;}*/
+div.online {
+    width: 100%;
+    height: auto;
+    margin: 23px 0px;
+    float: left;
+}
+div.online ul {
+}
+div.online ul li {
+    width: 33%;
+    float: left;
+    text-align: right;
+    padding: 4px 11px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+div.online ul li input.input_online {
+    width: 100%;
+    padding: 10px 19px;
+    border: 1px solid #b64120;
+    -moz-border-radius: 25px; /*Firefox*/
+    -webkit-border-radius: 25px; /*Safari, Chrome*/
+    border-radius: 25px;
+    outline: 0;
+    color: #ae4124;
+}
+div.online ul li textarea.input-textarea {
+    width: 100%;
+    padding: 10px 19px;
+    border: 1px solid #b64120;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 107px;
+    outline: 0;
+    color: #ae4124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.online ul li input.submit-but {
+    border: 0;
+    padding: 14px;
+    background: #46ab4d;
+}
+div.online ul li input.submit-but {
+    -moz-box-shadow: inset 0px 1px 0px 0px #9acc85;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #9acc85;
+    box-shadow: inset 0px 1px 0px 0px #9acc85;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+    background: -moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background: -webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background: -o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background: -ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+    background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+    background-color: #74ad5a;
+    border: 1px solid #3b6e22;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 9px 17px;
+    text-decoration: none;
+}
+div.online ul li input.submit-but:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+    background: -moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+    background: -webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+    background: -o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+    background: -ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+    background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+    background-color: #68a54b;
+}
+div.online ul li input.submit-but:active {
+    position: relative;
+    top: 1px;
+}
+div.contact_ad_wpr {
+    width: 100%;
+    float: left;
+}
+div.contact_ad_wpr div.con_add {
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 23px;
+    font-family: MyriadPro-Regular;
+    font-size: 16px;
+    position: relative;
+}
+div.contact_ad_wpr div.con_add div.mrn_logo {
+    width: 100%;
+    float: left;
+    margin-bottom: 11px;
+}
+div.contact_ad_wpr div.con_add div.mrn_logo img {
+    margin: 0 auto;
+    display: block;
+}
+div.contact_ad_wpr div.con_add span {
+    font-size: 17px;
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
+    line-height: 33px;
+    letter-spacing: 2px;
+}
+div.contact_ad_wpr div.con_add div.contact-num {
+    margin-top: 11px;
+    font-size: 15px;
+    font-weight: bold;
+}
+div.contact_ad_wpr div.con_add div.mail-id {
+    font-size: 15px;
+    line-height: 14px;
+    margin-bottom: 33px;
+}
+div.contact_ad_wpr div.con_add h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #008a43;
+    font-family: MyriadPro-Regular;
+    font-weight: normal;
+    margin-bottom: 22px;
+}
+.contact_map {
+    width: 100%;
+    height: 420px;
+    float: left;
+    margin-bottom: 32px;
+    -moz-border-radius: 6px; /*Firefox*/
+    -webkit-border-radius: 6px; /*Safari, Chrome*/
+    border-radius: 6px;
+    border: 0px solid #f3f3f3;
+    position: relative;
+    margin-bottom: 50px;
+}
+.map_arrow {
+    background: url(../images/map-arrow.png);
+    width: 92px;
+    height: 57px;
+    position: absolute;
+    bottom: -47px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    z-index: 9999;
+}
+h1#firstHeading {
+    font-size: 25px;
+    text-align: center;
+}
+h1#firstHeading span {
+    font-size: 12px;
+    width: 100%;
+    float: left;
+}
+div#content {
+    text-align: center;
+    margin: 12px 0px;
+}
+a {
+    text-decoration: none;
+} /*----*/
+div.wrapper.header div.content_wrapper div.logo_wrapper,
+div.logo_wrapper:hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+    }
+    70% {
+        -webkit-transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+div.wrapper.header div.content_wrapper div.logo_wrapper,
+div.logo_wrapper:hover {
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+} /*---*/
+ul.productslisting {
+    width: 100%;
+    float: left;
+    font-family: lato;
+    font-size: 14px;
+}
+ul.productslisting li {
+    padding: 10px 1px;
+    background: url(../images/tick-dark.png) 3px 9px no-repeat;
+    background-size: 15px;
+    padding-left: 26px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #454545;
+}
+ul.productslisting li ol {
+    padding-left: 0px;
+    margin-top: 8px;
+    color: #616161;
+}
+ul.productslisting li ol li {
+    background: url(../images/tick.png) 4px 9px no-repeat;
+    background-size: 15px;
+}
+h4.p-head {
+    background: url(../images/tick.png) 4px 9px no-repeat;
+    background-size: 2.5%;
+    padding: 10px 0px;
+    padding-left: 31px;
+    font-size: 15px;
+    font-family: lato;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #c9c9c9;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #454545;
+}
+.gm-style .gm-style-iw {
+    text-align: center;
+}
+.gm-style .gm-style-iw p {
+    margin-top: 0px;
+}
+ul.productslisting.srs li {
+    font-size: 13px;
+    line-height: 23px;
+    background-position: 0px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #454545;
+} /*scroll*/
+.sidescroll_leaf {
+    position: absolute;
+    top: 0px;
+    left: 2%;
+    z-index: 9999;
+}
+.leaf01 {
+    width: 125px;
+}
+.sidescroll_leaf01 {
+    position: absolute;
+    top: 50px;
+    right: 4%;
+    z-index: 999;
+}
+.leaf02 {
+    width: 140px;
+}
+.sidescroll_leaf02 {
+    position: absolute;
+    top: 0px;
+    right: 13%;
+}
+.leaf03 {
+    width: 59px;
+}
+.sidescroll_leaf04 {
+    position: absolute;
+    top: 50px;
+    left: 0%;
+}
+.leaf04 {
+    width: 59px;
+}
+.sidescroll_leaf05 {
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    z-index: 999;
+}
+img.leaf05 {
+    width: 90px;
+}
+.sidescroll_leaf06 {
+    position: absolute;
+    top: 50px;
+    left: 1%;
+    z-index: 999;
+}
+img.leaf06 {
+    width: 135px;
+}
+.sidescroll_leaf044 {
+    position: absolute;
+    top: 0px;
+    right: 3%;
+}
+.leaf044 {
+    width: 47px;
+    opacity: 0.5;
+}
+.sidescroll_leaf07 {
+    position: absolute;
+    top: 0px;
+    right: 3%;
+}
+.leaf07 {
+    width: 61px;
+    opacity: 1;
+}
+.booking {
+    background: url(../images/bg-booking.jpg);
+    background-size: 1966px;
+}
+.booking div.content_wrapper:after {
+    content: "";
+    width: 100%;
+    height: 408px;
+    background: rgba(0, 0, 0, 0.61);
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+.booking div.content_wrapper {
+    /* position: relative; */
+    z-index: 99;
+}
+.booking:hover div.content_wrapper:after {
+    opacity: 1;
+    visibility: visible;
+}
+div.content_wrapper:hover div.our-garden div.head {
+    color: #fff;
+}
+div.content_wrapper:hover div.booking-wrapper h3 {
+    color: #fff;
+}
+div.rightnav {
+    float: right;
+    margin-bottom: 18px;
+}
+.booking div.content_wrapper:after {
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+.v_gallery_wrpper {
+    width: 100%;
+    float: left;
+}
+.v_gallery_wrpper li {
+    width: 100%;
+    float: left;
+    min-height: 440px;
+    background: #ccc;
+    margin: 22px 0px;
+}
+div#qLpercentage {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    top: 40% !important;
+    font-size: 119px !important;
+    text-align: center;
+    left: 46% !important;
+    color: #00b456 !important;
+}
+
+div.leftnav p b {
+    font-size: 18px;
+    color: #000;
+    margin-left: 14px;
+}
+div.leftnav p span {
+    /* border-bottom: 1px solid #5F5F5F; */
+    color: #000;
+    background: #fceaa2;
+    padding: 2px 5px;
+    margin: 2px 3px;
+}
+
+iframe.contact_form_google {
+    width: 100%;
+    float: left;
+    height: 720px;
+}
+div.ss-top-of-page {
+    display: none;
+}
+
+div.keyword {
+    position: absolute;
+    z-index: 4;
+}
+div.footer div.keyword {
+    position: absolute;
+    top: -110px;
+}
+
+div#ascrail2000 {
+    z-index: 9999 !important;
+    width: 12px !important;
+    background-color: rgba(0, 0, 0, 0.08) !important;
+}
+div#ascrail2000 div {
+    width: 12px !important;
+    border: 0px !important;
+    right: 3px !important;
+    background: #008a43 !important;
+    right: 0 !important;
+    border-radius: 0px !important;
+}
+
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper {
+    background: #b92f0a;
+    border-radius: 4px;
+}
+
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li a {
+    padding: 15px 21px;
+    text-shadow: none;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #454545;
+}
+
+div.welcome-note p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+div.round_wrapper ul li h3 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+div.round_wrapper ul li div.view_btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 9px 21px;
+}
+
+div.welcome-note h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+}
+
+div.wrapper.banner div.content_wrapper.bacnner-wpr div.menu-wrpper ul li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+div.footer div.content_wrapper div.copy {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+
+div.footer div.content_wrapper div.daskrishnan {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #454545;
+}
+div.wrapper.header div.content_wrapper div.mariyil-contact-number ul li {
+    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 0px 1px 3px #000;
+}
+
+div.wrapper.header div.content_wrapper div.mariyil-contact-number ul li.mail-id-mariyil-rubber-nursery {
+    font-size: 15px;
+}
+div.content_wrapper div.our-garden div.head {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+div.content_wrapper div.our-garden div.view_btn.garden_btn {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+div.content_wrapper div.booking-wrapper div.booking_btn {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+}
+
+div.content_wrapper div.booking-wrapper h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 90%;
+}
+div.leftnav p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #454545;
+}
+/*
+     FILE ARCHIVED ON 19:49:25 Jan 22, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:27:30 Jun 16, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 85.635
+  exclusion.robots: 0.292
+  exclusion.robots.policy: 0.279
+  RedisCDXSource: 0.747
+  esindex: 0.012
+  LoadShardBlock: 62.609 (3)
+  PetaboxLoader3.datanode: 5171.371 (5)
+  CDXLines.iter: 19.102 (3)
+  load_resource: 5396.707 (2)
+  PetaboxLoader3.resolve: 244.222 (2)
+*/
